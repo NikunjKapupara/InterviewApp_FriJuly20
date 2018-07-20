@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:minHeight="?attr/actionBarSize"
+    local:contentInsetLeft="0dp"
+    local:contentInsetStart="0dp"
+    local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNavBack"
+            android:layout_width="16dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="@dimen/standard_margin_start"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_nav_back_arrow" />
+        <TextView
+            android:id="@+id/titleLabel"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Title"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/btnSearchOnToolbar"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="@dimen/standard_margin_end"
+            android:backgroundTint="@color/colorPrimary"
+            android:background="@drawable/ic_search"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.Toolbar>

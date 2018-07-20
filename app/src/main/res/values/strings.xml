@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">NYTimes</string>
+
+    <string name="news_publish_date">News Published on:</string>
+    <string name="news_by">News Published:</string>
+    <string name="not_available">- Not Available -</string>
+    <string name="no_media_content_available">- No media content available. -</string>
+    <string name="read_more_news"><u>Click here to Read full article...</u></string>
+
+
+    <string name="title_news">News</string>
+    <string name="title_news_detail">News Detail</string>
+    <string name="news_section">News Section:</string>
+
+    <string name="about_news">About News: </string>
+    <string name="news_source">News Source: </string>
+    <string name="loader_message">Please wait...</string>
+    <string name="ok">OK</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_news_found">No news found.</string>
+    <string name="exit_from_app_confirmation">Are you sure to exit from the application?</string>
+    <string name="news_filter_hint">Dear News reader, if you want to read past news then just select any one news filter option from below and submit...</string>
+    <string name="todays_news">Today\'s News</string>
+    <string name="last_week_news">Last Week News</string>
+    <string name="last_month_news">Last Month News</string>
+    <string name="news_search_violation">Your search filter is same as now, please select other news search option</string>
+    <string name="nointernet">Please check your internet connection and try again...</string>
+    <string name="no_news_link_found">Sorry, no news link found.</string>
+</resources>

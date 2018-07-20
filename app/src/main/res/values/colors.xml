@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="news_list_item_bg">#e0e2e5</color>
+    <color name="field_header_name"> #999999</color>
+    <color name="link_color"> #0066ff</color>
+
+    <color name="primary_button">#002966</color>
+    <color name="secondary_button">#b3d1ff</color>
+</resources>

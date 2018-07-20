@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_white_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/standard_margin_start"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="News"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/standard_margin_start"
+            android:gravity="start"
+            android:text="@string/news_filter_hint"
+            android:textColor="@android:color/black"
+            android:textSize="11sp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/newsSearchFilterRG"
+            android:checkedButton="@id/todaysNewsRB"
+            android:layout_marginStart="@dimen/standard_margin_start"
+            android:layout_marginEnd="@dimen/standard_margin_end"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                style="@style/style_filter_news_radionbutton"
+                android:text="@string/todays_news"
+                android:textColor="@android:color/black"
+                android:id="@+id/todaysNewsRB" />
+
+            <RadioButton
+                style="@style/style_filter_news_radionbutton"
+                android:text="@string/last_week_news"
+                android:textColor="#666666"
+                android:id="@+id/lastWeekNewsRB" />
+
+
+            <RadioButton
+                style="@style/style_filter_news_radionbutton"
+                android:text="@string/last_month_news"
+                android:textColor="#999999"
+                android:id="@+id/lastMonthNewsRB" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitNewsFilterBTN"
+            android:layout_width="170dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/standard_margin_start"
+            android:layout_marginBottom="@dimen/standard_margin_start"
+            android:text="@string/submit"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/primary_button" />
+
+    </LinearLayout>
+
+</LinearLayout>

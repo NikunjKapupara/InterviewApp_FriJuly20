@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_margin_start">16dp</dimen>
+    <dimen name="standard_margin_end">16dp</dimen>
+    <dimen name="line_spacing">5dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+</resources>
